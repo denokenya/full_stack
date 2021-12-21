@@ -10,7 +10,7 @@ import{
     updateProduct,
     deleteProduct
     
-} from "../controllers/Products";
+} from "../controllers/Products.js";
 
 const router =express.Router();
 

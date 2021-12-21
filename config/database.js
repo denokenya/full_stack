@@ -3,7 +3,7 @@ import {Sequelize} from "sequelize";
 
 //database connection
 
-const db = new Sequelize('mern_db',root,'',{
+const db = new Sequelize('mern_db','root','',{
     host: "localhost",
     dialect: "mysql"
 });

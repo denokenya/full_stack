@@ -1,5 +1,5 @@
 //import product model
-import Product from "../models/productModel";
+import Product from "../models/productModel.js";
 
 //get all the products
 export const getAllProducts =async (req, res) =>{
@@ -69,7 +69,7 @@ export const deleteProduct = async (req,res) =>{
         res.json({
             "message": "Product Deleted"
         });
-        
+
 
     } catch (error) {
         res.json({message:error.message});
